@@ -3,6 +3,7 @@ How to run:
 Upload the sql in database
 Keep FrontEnd file in C:\xampp\htdocs location
 Run your xampp. Go to browser and input this url http://localhost:8080/frontend/ 
+if it doesnt work try http://localhost/frontend/ 
 
 
 Features:
