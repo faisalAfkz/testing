@@ -1,0 +1,75 @@
+* {box-sizing: border-box}
+
+/* Add padding to containers */
+.container {
+  padding: 16px;
+}
+
+/* Full-width input fields */
+input[type=text], input[type=password],input[type=number], input[type=name] {
+  width: 35%;
+  padding: 20px;
+  /*margin: 4px 0 16px 610px;*/
+  display: inline-block;
+  border: none;
+  background: #f1f1f1;
+  border-radius: 35px;
+  margin-top: 10px;
+  margin-bottom: 25px;
+}
+
+h1{
+  margin: auto;
+  text-align: center;
+}
+
+input[type=text]:focus, input[type=password]:focus, input[type=text]:focus, input[type=name]:focus  {
+  background-color: #ddd;
+  outline: none;
+}
+
+/* Overwrite default styles of hr */
+hr {
+  border: 1px solid #f1f1f1;
+  margin-bottom: 25px;
+}
+
+/* Set a style for the submit/register button */
+.registerbtn {
+  background-color: #224752;
+  color: white;
+  padding: 16px 20px;
+  /*margin: 20px 700px;*/
+  border: none;
+  cursor: pointer;
+  width: 25%;
+  opacity: 0.9;
+  border-radius: 15px;
+  margin-top: 10px;
+  margin-bottom: 50px;
+}
+
+.registerbtn:hover {
+  opacity:1;
+}
+
+/* Add a blue text color to links */
+a {
+  color: rgb(59, 44, 66);
+}
+
+/* Set a grey background color and center the text of the "sign in" section */
+.signin {
+  background-color: #f1f1f1;
+  text-align: center;
+}
+
+#editForm2{
+  margin: 0 auto;
+  width: 75%;
+  text-align: center;
+}
+
+#editForm3{
+  text-align: center;
+}

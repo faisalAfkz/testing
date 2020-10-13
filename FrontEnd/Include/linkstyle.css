@@ -1,0 +1,30 @@
+
+.a:link, .a:visited {
+  background-color: white;
+  color: black;
+  border: 2px solid green;
+  padding: 10px 20px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+}
+
+.a:hover, .a:active {
+  background-color: green;
+  color: white;
+}
+
+#links{
+  margin-left: 40%;
+  margin-top: 20px;
+  width: 350px;
+  background-color: rgb(33, 21, 87);
+  color: rgb(253, 253, 253);
+  border: 2px solid rgb(48, 9, 30);
+  padding: 10px 20px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 25px;
+  font-family: 'Times New Roman', Times, serif;
+}
